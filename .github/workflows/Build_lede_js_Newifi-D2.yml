@@ -8,7 +8,7 @@
 # Description: Build OpenWrt using GitHub Actions
 #
 
-name: Build lede(js版) Newifi-D2
+name: Build lede Newifi-D2
 
 on:
   repository_dispatch:
@@ -22,9 +22,9 @@ on:
   #push:
   # branches: 
   #  - master
-        
-  schedule:
-   - cron: 07 3 * * 4
+    
+  # schedule:
+  # - cron: 07 3 * * 4
         
   #watch:
   # types: [started]
